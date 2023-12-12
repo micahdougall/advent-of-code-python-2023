@@ -3,6 +3,7 @@ import logging
 import os
 
 
+# logging.basicConfig(filename="log.txt", filemode="a", level=logging.INFO)
 logging.basicConfig(level=logging.INFO)
 RESOURCES = "res"
 

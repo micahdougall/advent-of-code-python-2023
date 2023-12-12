@@ -14,14 +14,14 @@ def run(
     runtime: str,
     debug: bool,
 ):
-    part_one = getattr(import_module(f"days.day_{day}"), "part_one")
-    part_two = getattr(import_module(f"days.day_{day}"), "part_two")
+    part_one = getattr(import_module(f"days.{day}"), "part_one")
+    part_two = getattr(import_module(f"days.{day}"), "part_two")
     parts = (
         [part_one] if part == "one"
         else [part_two] if part == "two"
         else [part_one, part_two]
     )
-    day_module = import_module(f"days.day_{day}", package=None)
+    day_module = import_module(f"days.{day}", package=None)
 
     if debug:
         logging.getLogger().setLevel(logging.DEBUG)

@@ -1,0 +1,122 @@
+{
+    "seeds": [
+        79,
+        14,
+        55,
+        13
+    ],
+    "seeds-group": {
+        "seeds": [
+            79,
+            55
+        ],
+        "range": [
+            14,
+            13
+        ]
+    },
+    "seed-to-soil": [
+        {
+            "source": 98,
+            "dest": 50,
+            "count": 2
+        },
+        {
+            "source": 50,
+            "dest": 52,
+            "count": 48
+        }
+    ],
+    "soil-to-fertilizer": [
+        {
+            "source": 15,
+            "dest": 0,
+            "count": 37
+        },
+        {
+            "source": 52,
+            "dest": 37,
+            "count": 2
+        },
+        {
+            "source": 0,
+            "dest": 39,
+            "count": 15
+        }
+    ],
+    "fertilizer-to-water": [
+        {
+            "source": 53,
+            "dest": 49,
+            "count": 8
+        },
+        {
+            "source": 11,
+            "dest": 0,
+            "count": 42
+        },
+        {
+            "source": 0,
+            "dest": 42,
+            "count": 7
+        },
+        {
+            "source": 7,
+            "dest": 57,
+            "count": 4
+        }
+    ],
+    "water-to-light": [
+        {
+            "source": 18,
+            "dest": 88,
+            "count": 7
+        },
+        {
+            "source": 25,
+            "dest": 18,
+            "count": 70
+        }
+    ],
+    "light-to-temperature": [
+        {
+            "source": 77,
+            "dest": 45,
+            "count": 23
+        },
+        {
+            "source": 45,
+            "dest": 81,
+            "count": 19
+        },
+        {
+            "source": 64,
+            "dest": 68,
+            "count": 13
+        }
+    ],
+    "temperature-to-humidity": [
+        {
+            "source": 69,
+            "dest": 0,
+            "count": 1
+        },
+        {
+            "source": 0,
+            "dest": 1,
+            "count": 69
+        }
+    ],
+    "humidity-to-location": [
+        {
+            "source": 56,
+            "dest": 60,
+            "count": 37
+        },
+        {
+            "source": 93,
+            "dest": 56,
+            "count": 4
+        }
+    ]
+}
